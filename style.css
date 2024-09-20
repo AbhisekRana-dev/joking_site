@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+/* h1{
+    color: rgb(196, 194, 229);
+    font-style: italic;
+    text-shadow: #2a2f43;
+    text-decoration: double;
+    line-height: 1.6; 
+    
+} */
+
+.heading {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2em; /* Reduced font size */
+    color: #421207; /* Bright orange */
+    text-align: left; /* Align text to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px; /* Adjusted margin */
+    padding: 1px; /* Adjusted padding */
+    border: 1px dashed #8f6056;
+    border-radius: 15px;
+    background-color: #76726d; /* Light gray */
+    transition: transform 0.3s;
+    transition: transform 0.3s;
+    width: 70%; /* Set a specific width */
+    max-width: 6000px;
+}
+
+
+body {
+    background-color: rgb(103, 103, 94);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-disc-in-space-that-is-surrounded-by-an-intense-light-image_2635408.jpg);
+    padding: 20px; /* Added padding to create more room */
+    background-size: cover; /* Ensures the image covers the whole viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #2a2f43;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    
+}
+p{
+    font-size: 16px;
+    color: hsl(348, 41%, 77%);
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+}
+button{
+    color: rgb(210, 186, 186);
+    background: #335268;
+    padding: 12px 20px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+
+    border-radius: 50px;
+    margin: 0 auto;
+
+    
+}
+button:hover {
+    
+    background-color: #10091d; 
+    background-position: center;
+}
